@@ -16,12 +16,3 @@ elif choice == 3:
     a = int(input("Enter the first number: "))
     b = int(input("Enter the second number: "))
     print("Result:", sub(a, b))
-    
-    
-elif choice == 4:
-    a = int(input("Enter the base: "))
-    b = int(input("Enter the exponent: "))
-    print("Result:", pow(a, b))
-
-else:
-    print("Invalid choice")
